@@ -8,9 +8,7 @@ public:
     int data;
     TreeNode* left;
     TreeNode* right;
-    TreeNode() :data(0), left(nullptr), right(nullptr) {}
     TreeNode(int value) : data(value), left(nullptr), right(nullptr) {}
-    TreeNode(int value, TreeNode* left, TreeNode* right) : data(value), left(left), right(right) {}
 };
 
 TreeNode* buildTree(int noOfNodes, vector<pair<int, int>> edges) {
